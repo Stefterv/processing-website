@@ -1,0 +1,9 @@
+.title{
+    flex-basis: var(--col8);
+}
+.software{
+    color: var(--processing-blue);
+}
+.instructions{
+    flex-basis: var(--col5);
+}

@@ -1,0 +1,28 @@
+.container{
+    margin-top: calc(var(--vertical-margin-large) * -1);
+    background: var(--download-background);
+    margin-bottom: var(--vertical-margin-large);
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    gap: var(--gutter);
+    flex-basis: var(--col8);
+    padding: var(--gutter);
+    svg{
+        width: 1.5em;
+        height: 1.5em;
+    }
+    li{
+        display: flex;
+        gap: var(--gutter);
+        padding: var(--gutter);
+        color: var(--download-inactive);
+        font-weight: bold;
+        font-size: var(--text-medium);
+    }
+}
+li.active{
+    background: var(--download-background-active);
+    color: var(--processing-blue);
+}
